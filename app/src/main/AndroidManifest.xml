@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bs.lansys.miuitools"
+    android:sharedUserId="android.uid.system" >
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".app.MiuiApp" >
+        <!--
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="2.1*" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="MiuiColorBar,ColorToast,SecurityCrack,MiuiADCrack, ThemeCrack etc." />
+            -->
+        <activity
+            android:excludeFromRecents="false"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:name=".activities.SettingsActivity" android:label="MiuiTools">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

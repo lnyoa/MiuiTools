@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="color_statusbar_title">变色状态栏</string>
+    <string name="statusbar_category">状态栏</string>
+    <string name="color_toast_title">Toast随状态栏变色</string>
+    <string name="theme_category">主题</string>
+    <string name="theme_author_key">主题制作者</string>
+    <string name="ad_crask_title">关闭MIUI广告</string>
+    <string name="settings_changed_message">设置已改变。你可能需要重启应用，才能应用新的设置。</string>
+    <string name="settings_activity_title">MIUI附加设置</string>
+    <string name="app_name">MIUI附加设置</string>
+    <string name="second_clock_title">时钟显秒</string>
+    <string name="other_category">其他</string>
+    <string name="music_online_title">在线音乐</string>
+    <string name="video_online_title">在线视频</string>
+    <string name="video_online_summary">打开小米视频在线功能</string>
+    <string name="video_offline_summary">关闭小米视频在线功能</string>
+    <string name="music_offline_summary">关闭小米音乐在线模式</string>
+    <string name="music_online_summary">打开小米音乐在线模式</string>
+    <string name="debug_msg_titls">显示窗口信息</string>
+</resources>

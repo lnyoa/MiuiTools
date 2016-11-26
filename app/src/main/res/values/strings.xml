@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">MiuiTools</string>
+    <string name="color_statusbar_title">Color statusbar</string>
+    <string name="statusbar_category">Statusbar</string>
+    <string name="color_toast_title">Color toast message</string>
+    <string name="theme_category">Theme</string>
+    <string name="theme_author_key">Theme author</string>
+    <string name="ad_crask_title">Remove MiAD</string>
+    <string name="settings_changed_message">Some settings has been changed,you may need to restart your apps.</string>
+<string name="settings_activity_title" >Additions</string>
+    <string name="second_clock_title">Second clock</string>
+    <string name="other_category">Other</string>
+    <string name="music_online_title">Music Online</string>
+    <string name="music_online_summary">The Music App support online mode.</string>
+    <string name="music_offline_summary">The Music App unsupport online mode.</string>
+    <string name="video_online_title">Video Online</string>
+    <string name="video_online_summary">Then Vidoe App support online mode.</string>
+    <string name="video_offline_summary">The Video App unsupport online mode.</string>
+    <string name="debug_msg_titls">Show activity\'s message</string>
+</resources>

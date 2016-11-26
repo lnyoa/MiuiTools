@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    android:title="@string/settings_activity_title"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/statusbar_category">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/color_statusbar_title"
+            android:key="color_statusbar_key" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/color_toast_title"
+            android:key="color_toast_key" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/second_clock_title"
+            android:key="second_clock_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/theme_category">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/theme_author_key"
+            android:key="theme_author_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="AD">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/ad_crask_title"
+            android:key="ad_crask_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other_category">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/music_online_title"
+            android:key="music_online_key"
+            android:summary="@string/music_online_summary" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/video_online_title"
+            android:key="video_online_key"
+            android:summary="@string/video_online_summary" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/debug_msg_titls"
+            android:key="debug_msg_key" />
+    </PreferenceCategory>
+</PreferenceScreen>
